@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@+id/pref_screen" >
+
+    <EditTextPreference
+        android:dialogMessage="Enter your JsFiddle username:"
+        android:dialogTitle="Change username"
+        android:key="username"
+        android:negativeButtonText="Cancel"
+        android:positiveButtonText="Submit"
+        android:title="Username" 
+        >
+    </EditTextPreference>
+
+</PreferenceScreen>

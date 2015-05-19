@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mypowerapps.android.jsfiddlequery.JsFiddleQueryActivity" >
+
+      <item 
+          android:id="@+id/menuitem_search"
+          android:title="@string/menu_search"          
+          android:showAsAction="collapseActionView|ifRoom"
+          android:actionViewClass="android.widget.SearchView" />
+    
+      <item
+        android:id="@+id/menuitem_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_refresh" />
+      
+      <item
+        android:id="@+id/menuitem_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings" />
+      
+      <!--<item
+        android:id="@+id/menuitem_help"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_help" />-->
+    
+</menu>
